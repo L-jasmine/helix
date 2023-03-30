@@ -1,0 +1,25 @@
+inherits = "onedark"
+
+"ui.background" = { fg = "white"}
+"ui.background.separator" = { fg = "gray" }
+"ui.virtual.ruler" = { fg = "white" }
+
+"ui.selection" = { bg = "gray" }
+"ui.statusline" = { fg = "white" }
+"ui.statusline.inactive" = { fg = "gray" }
+"ui.statusline.normal" = { fg = "black", bg = "blue" }
+"ui.statusline.insert" = { fg = "black", bg = "green" }
+"ui.statusline.select" = { fg = "black", bg = "magenta" }
+
+"ui.menu" = { fg = "white" }
+"ui.menu.selected" = { modifiers = ["reversed"] }
+"ui.menu.scroll" = { fg = "light-gray" }
+"ui.linenr" = { fg = "light-gray" }
+"ui.linenr.selected" = { fg = "white",  modifiers = ["bold"] }
+"ui.popup" = { fg = "white" }
+"ui.popup.info" = { fg = "white" }
+"ui.window" = { fg = "white" }
+"ui.help" = { fg = "white" }
+
+[palette]
+faint-gray = "#839192"
