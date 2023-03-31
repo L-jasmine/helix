@@ -10,3 +10,4 @@ cp config.toml ~/.config/helix/
 
 echo "install rust-analyzer"
 rustup component add rust-analyzer
+ln -s $(rustup which rust-analyzer) /home/csh/.cargo/bin/rust-analyzer
