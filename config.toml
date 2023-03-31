@@ -1,0 +1,33 @@
+# theme = "base16_transparent"
+theme = "onedark_transparent"
+
+[editor]
+true-color = true
+bufferline = 'always'
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name"]
+center = []
+right = [
+  "diagnostics",
+  "selections",
+  "position",
+  "file-encoding",
+  "file-line-ending",
+  "file-type",
+]
+
+[editor.lsp]
+display-inlay-hints = true
+
+[keys.normal]
+C-s = [":w"]
+space = { C-a = ":set-option line-number absolute", C-r = ":set-option line-number relative" }
+
+[keys.insert]
+C-s = ["normal_mode", ":w"]
