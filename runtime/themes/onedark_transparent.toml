@@ -1,5 +1,6 @@
 inherits = "onedark"
 
+"comment" = { fg = "light-gray", modifiers = ["italic"] }
 "ui.background" = { fg = "white"}
 "ui.background.separator" = { fg = "gray" }
 "ui.virtual.ruler" = { fg = "white" }
